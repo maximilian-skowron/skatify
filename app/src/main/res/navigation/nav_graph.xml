@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FragmentHomeMenu">
+
+    <fragment
+        android:id="@+id/FragmentHomeMenu"
+        android:name="com.dhge.skatify.ui.home_menu.HomeMenuFragment"
+        android:label="HomeMenuFragment"
+        tools:layout="@layout/fragment_home_menu">
+        <action
+            android:id="@+id/action_FragmentHomeMenu_to_placeholder"
+            app:destination="@id/placeholder" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" />
+</navigation>
