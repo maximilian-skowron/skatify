@@ -8,6 +8,7 @@ class Game {
   Game(this._rounds, {this.playerList});
 
   int get rounds => _rounds;
+  int get currRound => _currRound;
 
   // get player index with top score
   int getTopPlayer() {
