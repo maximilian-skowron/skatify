@@ -7,6 +7,21 @@ permalink: /practical-exp-java
 
 # Java praktische Erfahrung während der Umsetzung
 
+## Einrichtung der Entwicklungsumgebung
+
+Für die native Androidentwicklung muss [Android Studio](https://developer.android.com/studio) heruntergeladen und installiert werden.
+Bei der Installation werden alle benötigten Java Versionen automatisch heruntergeladen.
+Für die Entwicklung sollte ein Emulator eingerichtet werden.
+Dafür muss eine SDK (spezifische Android Version) während der Installation von Android Studio heruntergeladen werden.
+Es muss bedacht werden je neuer die SDK umso neuere Funktionen sind vorhanden, allerdings werden weniger Endgeräte abgedeckt.
+Der Installationswizzard fragt dann noch danach ein AVD (Android Virtual Device) zu erstellen mit einer vorhandenen SDK.
+
+Es kann auch anstelle eines Emulators das eigene Smartphone mittels eines USB Kabels angeschlossen und genutzt werden.
+
+Danach kann in Android Studio ein neues Projekt angelegt werden.
+Dabei kann zwischen verschiedenen Presets ausgewählt werden.
+Man muss einen Name und ein Javapackage, sowie eine minimale SDK festlegen.
+
 ## Android Entwicklung laut dem Android Team
 
 Das Team rund um Android gibt neuen Android Entwicklern eine klare Richtung vor.

@@ -49,7 +49,7 @@ Entweder über VSCode oder mittels `flutter run` kann die App ausgeführt werden
 
 Das Aufsetzen von Flutter beinhaltet zwar wenige Schritte mehr als bei Android, da Android Studio alle nötigen Dateien selbst installiert, allerdings war es trotzdem sehr einfach.
 
-Flutter selbst ermöglichte uns extrem schnell und einfach die Hälfte der Bildschirme aus dem definierten Wireframe zu erstellen und mit Funktionalität zu versehen.
+Flutter selbst ermöglichte uns extrem schnell und einfach die Hälfte der Bildschirme aus dem vorher definierten Pretotype zu erstellen und mit Funktionalität zu versehen.
 Dies war dem Baukastensystem der Widget und dem Hot Reloade geschuldet, welcher die App fast sofort aktualisierte anstatt komplett neu zu bauen, wie bei Android.
 
 Im folgenden Kapitel gehen wir auf den Flutter Code ein und ziehen dann im letzen Kapitel ein Fazit zu Flutter und Android Native.

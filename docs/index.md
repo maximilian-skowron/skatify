@@ -9,12 +9,11 @@ permalink: /
 
 ## Aufgabenstellung
 
-Zielstellung war es mittels eines Tools seiner Wahl eine Skat Rechnungsapp zu erstellen.
+Zielstellung war es eine Skat Bewertungsapp zu erstellen.
 Die App sollte verschiedene Funktionen integrieren.
-So sollten nicht nur die Punkte der einzelnen Spieler angezeigt, sondern auch mittels verschiedener Eingaben die Punkte pro Runde ermitteln.
-Prinzipiell sollte ein Punkte "Wizard" erstellt werden.
+So sollten nicht nur die Punkte der einzelnen Spieler angezeigt, sondern auch mittels verschiedener Eingaben die Punkte pro Runde ermittelt werden (Prinzipiell ein Punkte "Wizzard").
 
-Im zweiten Schritt sollte dann ermöglicht werden eine Art Turnier zu starten und mehrere Geräte lokal miteinander zu verbinden.
+Im zweiten Schritt sollte dann ermöglicht werden ein Turnier zu starten und mehrere Geräte lokal miteinander zu verbinden.
 
 ## Vorgehensweise
 

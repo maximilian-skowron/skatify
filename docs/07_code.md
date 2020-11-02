@@ -32,7 +32,7 @@ Innerhalb des `lib` Ordners befinden sich alle Dateien bezüglich der UI und der
     └── resultroundview.dart
 ```
 
-Der `views` Ordner beinhaltet die einzelnen Bildschirme, welche im Wireframe definiert wurden.
+Der `views` Ordner beinhaltet die einzelnen Bildschirme, welche im Pretotype definiert wurden.
 `Viewmodel` ist der Ordner welche die Flutter Provider hält, welche quasi die ViewModels von Flutter sind. 
 Dort wird der State gemanagt und verschiedene Services integriert und ausgeführt.
 Die Services sind im `services` Ordner zu finden.
