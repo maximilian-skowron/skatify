@@ -1,5 +1,7 @@
 import 'package:skatify/models/player.dart';
 
+// Game model holds information for a given game.
+// There may be multiple instances of Game within a Turnier.
 class Game {
   final List<Player> playerList;
   final int _rounds;

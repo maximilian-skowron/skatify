@@ -4,6 +4,8 @@ import 'package:skatify/views/gameconfigview.dart';
 import 'package:skatify/views/homeview.dart';
 import 'package:skatify/views/resultroundview.dart';
 
+// Function to change the current view given a route name.
+// If no name is given the generator will default to a FallbackView.
 Route<dynamic> onGenerateRoute(RouteSettings settings) {
   switch (settings.name) {
     case Routes.HomeRoute:
@@ -20,6 +22,8 @@ Route<dynamic> onGenerateRoute(RouteSettings settings) {
   }
 }
 
+// Holds all possible route names.
+// Get used within views to define a named route.
 class Routes {
   Routes._();
 

@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import 'package:skatify/configs/routes.dart';
 import 'package:skatify/viewmodel/roundresultprovider.dart';
 
+// View to select player who played against others and select game mode.
 class ResultRoundView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

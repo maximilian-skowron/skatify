@@ -1,6 +1,8 @@
 import 'package:skatify/models/game.dart';
 import 'package:skatify/models/player.dart';
 
+// Enhanced enumeration to define possible game modi.
+// Game modi are important to calculate the score for the given round.
 class GameModi {
   GameModi._();
 
@@ -10,6 +12,8 @@ class GameModi {
   static const String Farbe = "farbe";
 }
 
+// A GameService holds information about a Game.
+// A Game may be started, ended.
 class GameService {
   Game game;
 

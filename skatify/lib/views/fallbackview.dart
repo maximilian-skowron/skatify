@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:fluttericon/fontelico_icons.dart';
 import 'package:skatify/configs/routes.dart';
 
+// Default view when navigation controller defined no name or a not existing one.
 class FallbackView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

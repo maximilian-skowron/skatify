@@ -6,6 +6,7 @@ import 'package:skatify/viewmodel/gameconfigprovider.dart';
 import 'package:skatify/viewmodel/roundresultprovider.dart';
 import 'configs/routes.dart';
 
+// entrypoint for the app
 void main() {
   // setup and initialize locator bevore app starts to prevent calls before init
   setupLocator();

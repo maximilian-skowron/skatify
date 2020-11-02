@@ -2,8 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:skatify/models/player.dart';
 import 'package:skatify/services/game_service.dart';
 
+// Provider to manage the display of the score within the round.
 class RoundResultProvider extends ChangeNotifier {
   GameService gs;
+  // Player who played alone against the other within the round.
   Player selectedPlayer;
 
   RoundResultProvider(this.gs);

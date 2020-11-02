@@ -1,6 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:skatify/services/game_service.dart';
 
+// Provider for the GameConfig View
+//
+// Manages input of round count and player names.
+// The Service will set the values within the provided GameService.
 class GameConfigProvider extends ChangeNotifier {
   double _roundCount = 1;
   List<String> _names = [];

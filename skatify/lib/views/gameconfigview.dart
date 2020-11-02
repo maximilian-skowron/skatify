@@ -5,6 +5,8 @@ import 'package:provider/provider.dart';
 import 'package:skatify/configs/routes.dart';
 import 'package:skatify/viewmodel/gameconfigprovider.dart';
 
+// View to set players name and to set the round count.
+// This screen is a setup screen and shouldn't be shown again within a game.
 class GameConfigView extends StatelessWidget {
   final int playerCount;
   final double _roundMin = 1;
@@ -44,6 +46,7 @@ class GameConfigView extends StatelessWidget {
               ),
             ),
             Flexible(
+              // SpinBox is an external widget that helps to easily increment and decrement an integer within a given range.
               child: SpinBox(
                 value: _prov.roundCount,
                 onChanged: (newValue) {
@@ -66,6 +69,7 @@ class GameConfigView extends StatelessWidget {
   }
 }
 
+// Private widget used to create and decorate the input fields of an player input.
 class _PlayerSelectWidget extends StatelessWidget {
   final int number;
 
