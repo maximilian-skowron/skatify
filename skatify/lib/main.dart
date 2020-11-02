@@ -7,6 +7,7 @@ import 'package:skatify/viewmodel/roundresultprovider.dart';
 import 'configs/routes.dart';
 
 void main() {
+  // setup and initialize locator bevore app starts to prevent calls before init
   setupLocator();
   runApp(MyApp());
 }
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
             create: (_) => RoundResultProvider(getIt.get<GameService>())),
       ],
       child: MaterialApp(
-        title: 'Flutter Demo',
+        title: 'Skatify',
         debugShowCheckedModeBanner: true,
         theme: ThemeData(
           primarySwatch: Colors.green,
