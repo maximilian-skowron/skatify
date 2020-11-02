@@ -3,7 +3,7 @@ layout: default
 title: "09 - Ressource für Android und Flutter" 
 nav_order: 9
 permalink: /ressurces
----
+...
 
 # Ressourcen
 

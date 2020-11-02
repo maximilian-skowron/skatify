@@ -13,5 +13,3 @@ Durch das einfache Widget System war es möglich einen größeren Teil des MVP 1
 Native Android Entwicklung bietet allerdings auch gute Vorteile und steht nicht unter dauerhaftem Wandel wie Flutter, bedingt durch das große Alter.
 Allerdings erschweren fehlende Beispiele und eine geringe Unterstützung der Community das Entwickeln.
 Sodass nur geraten werden kann mit Kotlin zu entwickeln und kein Java mehr zu nutzen.
-
-
